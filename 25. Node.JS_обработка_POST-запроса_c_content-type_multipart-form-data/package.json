@@ -1,0 +1,21 @@
+{
+  "name": "multipart-form-data-server",
+  "version": "1.0.0",
+  "description": "Сервер для обработки POST-запросов с content-type: multipart/form-data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "formidable": "^3.5.1"
+  },
+  "keywords": [
+    "multipart",
+    "form-data",
+    "file-upload",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC"
+}

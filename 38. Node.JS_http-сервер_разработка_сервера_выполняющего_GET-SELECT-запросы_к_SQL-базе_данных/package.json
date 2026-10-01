@@ -1,0 +1,20 @@
+{
+  "name": "select-sql-server",
+  "version": "1.0.0",
+  "description": "HTTP сервер для SELECT запросов к SQL базе",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "mssql": "^12.5.5",
+    "sqlite3": "^5.1.6"
+  },
+  "keywords": [
+    "sql",
+    "select",
+    "http",
+    "server"
+  ]
+}

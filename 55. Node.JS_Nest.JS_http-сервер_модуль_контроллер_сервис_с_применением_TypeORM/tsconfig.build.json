@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+}
+
+// --- ТЕСТИРОВАНИЕ ---
+//
+// Postman:
+//   POST   http://localhost:3000/users  Body raw JSON: {"name":"Vadim","age":21}
+//   GET    http://localhost:3000/users
+//   GET    http://localhost:3000/users/1
+//   PUT    http://localhost:3000/users/1  Body raw JSON: {"age":22}
+//   DELETE http://localhost:3000/users/1
+//   GET    http://localhost:3000/users/999  -> 404
+//

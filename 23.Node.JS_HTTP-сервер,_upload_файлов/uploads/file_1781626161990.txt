@@ -1,0 +1,7 @@
+------WebKitFormBoundary04jAt3r4p4ElLIB4
+Content-Disposition: form-data; name="file"; filename="1.txt"
+Content-Type: text/plain
+
+123
+
+------WebKitFormBoundary04jAt3r4p4ElLIB4--
